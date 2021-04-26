@@ -19,7 +19,7 @@ namespace WebAPI.Controllers
             _repository = repository;
         }
         //
-        [Authorize(Roles = Role.SuperUser)]
+        [Authorize(Roles = "SuperUser, NormalUser")]
         [HttpGet] 
         public IActionResult GetAllBooks() 
         { 
