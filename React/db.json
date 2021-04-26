@@ -1,0 +1,78 @@
+{
+  "books": [
+    {}
+  ],
+  "products": [
+    {
+      "productName": "Name1",
+      "productSupplier": "supplier 1",
+      "productPrice": "1000",
+      "productDescription": "des",
+      "id": 1
+    },
+    {
+      "productName": "Name2",
+      "productSupplier": "supplier 2",
+      "productPrice": "1000",
+      "productDescription": "des",
+      "id": 2
+    },
+    {
+      "productName": "Name3",
+      "productSupplier": "supplier 3",
+      "productPrice": "1000",
+      "productDescription": "des",
+      "id": 3
+    },
+    {
+      "productName": "Name4",
+      "productSupplier": "supplier 4",
+      "productPrice": "3000",
+      "productDescription": "des",
+      "id": 4
+    },
+    {
+      "productName": "qerqer",
+      "productSupplier": "3234",
+      "productPrice": "1",
+      "productDescription": "des 1",
+      "id": 5
+    },
+    {
+      "productName": "2",
+      "productSupplier": "2",
+      "productPrice": "2",
+      "productDescription": "2",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Post 3",
+      "author": "tiepphan",
+      "body": "content post 3",
+      "id": 2
+    },
+    {
+      "title": "Post 3",
+      "author": "tiepphan",
+      "body": "content post 3",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
